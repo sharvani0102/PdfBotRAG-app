@@ -1,1 +1,13 @@
 streamlit
+langchain
+langchain_community
+langchain_groq
+langchain_openai
+langchain_core
+python-dotenv
+sentence_transformers==2.2.2
+torch
+InstructorEmbedding
+pypdf
+cryptography
+faiss-cpu
