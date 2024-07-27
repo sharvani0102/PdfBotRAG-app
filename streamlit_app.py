@@ -51,7 +51,8 @@ def vector_embeddings():
 
 prompt1 = st.text_input("Ask me Anything");
 
-if st.button("Documents Embedding"):
+st.text("This app contains uploaded documents for rules of the board games Monopoly and Catan")
+if st.button("Process Games Rule Documents"):
     vector_embeddings()
     st.write("vector store db is ready")
     
